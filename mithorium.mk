@@ -437,7 +437,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     usb_compositions.conf \
     android.hardware.usb@1.3-service.basic \
-    android.hardware.usb.gadget@1.2-service-qti
+    android.hardware.usb.gadget-service.qti
 
 # Vibrator
 ifneq ($(TARGET_USES_DEVICE_SPECIFIC_VIBRATOR),true)
